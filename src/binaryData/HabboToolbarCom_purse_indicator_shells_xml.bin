@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="purse_indicator_shells" width="49" height="29" version="0.1" uid="04B9BD81-6209-29B0-28AD-93274E35E0B9">
+  <window>
+    <region x="0" y="0" width="50" height="29" params="17" style="0" name="shells_container" color="0xff37b6a2" clipping="false" background="true" treshold="0" tags="CLICKAREA">
+      <children>
+        <itemlist_horizontal x="3" y="0" width="44" height="23" params="12585104" style="0" clipping="false">
+          <children>
+            <container x="0" y="3" width="15" height="23" params="3145744" style="0">
+              <children>
+                <text x="1" y="1" width="13" height="21" params="16" style="0" name="amount_shadow" caption="0">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="16" type="uint"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="bold" value="true" type="Boolean"/>
+                    <var key="kerning" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+                <text x="0" y="0" width="13" height="21" params="4194320" style="0" name="amount" caption="0">
+                  <variables>
+                    <var key="antialias_type" value="advanced" type="String"/>
+                    <var key="auto_size" value="left" type="String"/>
+                    <var key="font_face" value="Ubuntu" type="String"/>
+                    <var key="font_size" value="16" type="uint"/>
+                    <var key="text_color" value="0xffffff" type="hex"/>
+                    <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                    <var key="bold" value="true" type="Boolean"/>
+                    <var key="kerning" value="true" type="Boolean"/>
+                  </variables>
+                </text>
+              </children>
+            </container>
+            <bitmap x="15" y="5" width="27" height="26" params="16" style="19" name="icon" tags="ICON">
+              <variables>
+                <var key="bitmap_asset_name" value="shell_icon" type="String"/>
+              </variables>
+            </bitmap>
+          </children>
+          <variables>
+            <var key="spacing" value="1" type="int"/>
+            <var key="resize_on_item_update" value="true" type="Boolean"/>
+          </variables>
+        </itemlist_horizontal>
+      </children>
+    </region>
+  </window>
+</layout>
